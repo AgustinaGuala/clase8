@@ -1,0 +1,139 @@
+body {
+	font-size: 30px;
+	font-family: 'Inconsolata', monospace;
+	color: black;
+}
+
+
+.Titulo {
+	font-size: 80px;
+
+}
+.Tituloprincipal {
+	font-size: 80px;
+	float: right;
+	margin-right: 150px;
+}
+
+/*--------------RECETAS------------*/
+
+.comidas {
+	display: inline-block;
+	float: left;
+	padding: 20px;
+
+}
+
+.receta{
+	padding: 30px
+}
+
+.lista {
+	font-size: 30px;
+}
+
+
+#iniciofondo {
+	background-image: url("../image/fondoinicio.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer {
+	bottom: 0;
+	position: absolute;
+	height: 10px;
+	text-align: center;
+	margin-left: -200px;
+}
+
+#logo {
+	background-image: url("../image/logo.png");
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	float: right;
+	margin-left: 100px;
+	margin-right: 285px;
+	margin-top: 30px;
+	background-position: -150px -10px;
+}
+
+
+/*------------------------MENU---------------------------------*/
+
+
+
+.navsecu{
+	font-size: 30px;
+	width: 800px;
+	margin-left: 350px;
+
+
+}
+
+.navsecu ul li {
+	display: inline-block;
+	padding: 20px;
+	}
+
+.navsecu ul li:hover {
+	background-color: #DBC5F1;
+}
+
+
+.navsecu a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.navinicio{
+	margin-top: 350px;
+	font-size: 30px;
+	width: 600px;
+	margin-left: -120px;
+
+}
+.navinicio a {
+	text-decoration: none;
+	color: white;
+}
+
+.navinicio ul li {
+	display: inline-block;
+	padding: 5px;
+
+}
+
+.navinicio ul li:hover {
+	background-color: black;
+}
+
+
+
+/*------------------CONTACTO----------------------------*/
+
+
+
+#consultas {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin-left: 100px;
+	margin-right: 200px;
+	margin-bottom: 5px;
+	width: 500px;
+}
+
+.button:hover {
+	transform: rotate(300deg);
+}
+
+
+
+
+
+
+
+
